@@ -1,5 +1,5 @@
 from django.db import models
-from typecheckers import Type
+from masterservice.service.typecheckers import Type
 import uuid
 
 class Book:
