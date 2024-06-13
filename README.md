@@ -56,19 +56,20 @@ Get your development environment up and running with these simple steps:
 
 ### 📜 URL Patterns
 
-"/ensure": A quick health check to ensure the system is operational.
-"/books/list": View a list of all books in the library.
-"/books/add": Add a new book to the collection.
-"/books/update": Update details of an existing book.
-"/books/delete": Remove a book from the library.
-"/books/search": Find a book with specific attributes.
-"/users/list": List all registered users.
-"/users/add": Register a new user.
-"/users/update": Edit user information.
-"/users/delete": Delete a user profile.
-"/users/search": Search for users by their attributes.
-"/issue": Issue a book to a user.
-"/return": Process the return of a book.
+- `/ensure`: A quick health check to ensure the system is operational.
+- `/books/list`: View a list of all books in the library.
+- `/books/add`: Add a new book to the collection.
+- `/books/update`: Update details of an existing book.
+- `/books/delete`: Remove a book from the library.
+- `/books/search`: Find a book with specific attributes.
+- `/users/list`: List all registered users.
+- `/users/add`: Register a new user.
+- `/users/update`: Edit user information.
+- `/users/delete`: Delete a user profile.
+- `/users/search`: Search for users by their attributes.
+- `/issue`: Issue a book to a user.
+- `/return`: Process the return of a book.
+
 
 ## API Endpoints
 
