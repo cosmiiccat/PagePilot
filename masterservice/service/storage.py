@@ -1,15 +1,19 @@
 import json
 from masterservice.service.models import User, Book
 from datetime import datetime
+from dotenv import load_dotenv
 import copy 
+import os
 from utils import custom_exceptions
+
+load_dotenv()
 
 class DBAPI: 
 
     def __init__(self): 
 
-        self.booksdb_conn = "masterservice/Database/books.json"
-        self.usersdb_conn = "masterservice/Database/users.json"
+        self.booksdb_conn = os.getenv("BOOKSDB_PATH")
+        self.usersdb_conn = os.getenv("USERSDB_PATH")
         self.now = datetime.now()
 
     def add_book(self, title, author, isbn, availability):
